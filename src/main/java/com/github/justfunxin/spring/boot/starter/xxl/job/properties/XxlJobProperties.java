@@ -5,7 +5,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.boot.context.properties.NestedConfigurationProperty;
 
 /**
- * @author pangxin01822
+ * @author pangxin001@163.com
  */
 @Data
 @ConfigurationProperties(prefix = "xxl-job")

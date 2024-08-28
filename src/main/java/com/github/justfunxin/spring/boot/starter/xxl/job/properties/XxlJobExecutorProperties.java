@@ -5,7 +5,7 @@ import lombok.Data;
 /**
  * 执行器配置
  *
- * @author pangxin01822
+ * @author pangxin001@163.com
  */
 @Data
 public class XxlJobExecutorProperties {

@@ -17,7 +17,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.util.StringUtils;
 
 /**
- * @author pangxin01822
+ * @author pangxin001@163.com
  */
 @Slf4j
 @Configuration

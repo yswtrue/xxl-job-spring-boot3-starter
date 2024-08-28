@@ -3,7 +3,7 @@ package com.github.justfunxin.spring.boot.starter.xxl.job.properties;
 import lombok.Data;
 
 /**
- * @author pangxin01822
+ * @author pangxin001@163.com
  */
 @Data
 public class XxlJobAdminProperties {

@@ -5,7 +5,7 @@ import com.github.justfunxin.spring.boot.starter.xxl.job.model.XxlJobGroup;
 import com.github.justfunxin.spring.boot.starter.xxl.job.model.XxlJobInfo;
 
 /**
- * @author pangxin01822
+ * @author pangxin001@163.com
  */
 public interface XxlJobAdminService {
 

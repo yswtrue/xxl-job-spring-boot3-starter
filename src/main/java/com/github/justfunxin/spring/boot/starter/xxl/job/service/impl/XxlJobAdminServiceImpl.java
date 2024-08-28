@@ -29,7 +29,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * @author pangxin01822
+ * @author pangxin001@163.com
  */
 @Slf4j
 public class XxlJobAdminServiceImpl implements XxlJobAdminService {
