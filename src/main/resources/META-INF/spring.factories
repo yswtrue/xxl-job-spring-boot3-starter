@@ -1,2 +1,0 @@
-org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-com.github.kangarooxin.spring.boot.starter.xxl.job.XxlJobConfiguration

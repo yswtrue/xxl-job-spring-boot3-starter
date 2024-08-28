@@ -54,4 +54,8 @@ public class XxlJobExecutorProperties {
      */
     private int logRetentionDays = 30;
 
+    /**
+     * 是否自动创建执行器
+     */
+    private boolean autoCreateJobGroup = true;
 }

@@ -14,4 +14,14 @@ public class XxlJobAdminProperties {
      */
     private String[] addresses = {"http://127.0.0.1:8080/xxl-job-admin"};
 
+    /**
+     * 调度中心用户名 [选填]，通过 {@link com.github.kangarooxin.spring.boot.starter.xxl.job.service.XxlJobAdminService} 管理服务时需要
+     */
+    private String username = "admin";
+
+    /**
+     * 调度中心密码 [选填]，通过 {@link com.github.kangarooxin.spring.boot.starter.xxl.job.service.XxlJobAdminService} 管理服务时需要
+     */
+    private String password = "admin";
+
 }
