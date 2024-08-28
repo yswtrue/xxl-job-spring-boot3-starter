@@ -2,6 +2,8 @@ package com.github.kangarooxin.spring.boot.starter.xxl.job;
 
 import com.github.kangarooxin.spring.boot.starter.xxl.job.properties.XxlJobExecutorProperties;
 import com.github.kangarooxin.spring.boot.starter.xxl.job.properties.XxlJobProperties;
+import com.github.kangarooxin.spring.boot.starter.xxl.job.service.XxlJobAdminService;
+import com.github.kangarooxin.spring.boot.starter.xxl.job.service.impl.XxlJobAdminServiceImpl;
 import com.github.kangarooxin.spring.boot.starter.xxl.job.utils.InetUtils;
 import com.xxl.job.core.executor.impl.XxlJobSpringExecutor;
 import com.xxl.job.core.util.IpUtil;
@@ -48,6 +50,13 @@ public class XxlJobConfiguration {
         xxlJobSpringExecutor.setLogRetentionDays(executor.getLogRetentionDays());
         return xxlJobSpringExecutor;
     }
+
+    @Bean
+    @ConditionalOnMissingBean
+    public XxlJobAdminService xxlJobAdminService() {
+        return new XxlJobAdminServiceImpl(properties);
+    }
+
 
     private static String getIp(XxlJobExecutorProperties executor) {
         String ip = executor.getIp();
