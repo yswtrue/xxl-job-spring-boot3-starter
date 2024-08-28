@@ -1,10 +1,10 @@
-package com.github.kangarooxin.spring.boot.starter.xxl.job;
+package com.github.justfunxin.spring.boot.starter.xxl.job;
 
-import com.github.kangarooxin.spring.boot.starter.xxl.job.properties.XxlJobExecutorProperties;
-import com.github.kangarooxin.spring.boot.starter.xxl.job.properties.XxlJobProperties;
-import com.github.kangarooxin.spring.boot.starter.xxl.job.service.XxlJobAdminService;
-import com.github.kangarooxin.spring.boot.starter.xxl.job.service.impl.XxlJobAdminServiceImpl;
-import com.github.kangarooxin.spring.boot.starter.xxl.job.utils.InetUtils;
+import com.github.justfunxin.spring.boot.starter.xxl.job.properties.XxlJobExecutorProperties;
+import com.github.justfunxin.spring.boot.starter.xxl.job.properties.XxlJobProperties;
+import com.github.justfunxin.spring.boot.starter.xxl.job.service.XxlJobAdminService;
+import com.github.justfunxin.spring.boot.starter.xxl.job.service.impl.XxlJobAdminServiceImpl;
+import com.github.justfunxin.spring.boot.starter.xxl.job.utils.InetUtils;
 import com.xxl.job.core.executor.impl.XxlJobSpringExecutor;
 import com.xxl.job.core.util.IpUtil;
 import lombok.extern.slf4j.Slf4j;

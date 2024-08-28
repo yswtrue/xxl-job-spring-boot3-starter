@@ -1,4 +1,4 @@
-package com.github.kangarooxin.spring.boot.starter.xxl.job.properties;
+package com.github.justfunxin.spring.boot.starter.xxl.job.properties;
 
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;

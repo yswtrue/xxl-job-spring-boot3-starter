@@ -1,4 +1,4 @@
-package com.github.kangarooxin.spring.boot.starter.xxl.job.model;
+package com.github.justfunxin.spring.boot.starter.xxl.job.model;
 
 import lombok.Getter;
 import lombok.Setter;

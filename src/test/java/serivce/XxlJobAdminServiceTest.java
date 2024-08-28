@@ -1,9 +1,9 @@
 package serivce;
 
-import com.github.kangarooxin.spring.boot.starter.xxl.job.model.XxlJobInfo;
-import com.github.kangarooxin.spring.boot.starter.xxl.job.properties.XxlJobProperties;
-import com.github.kangarooxin.spring.boot.starter.xxl.job.service.XxlJobAdminService;
-import com.github.kangarooxin.spring.boot.starter.xxl.job.service.impl.XxlJobAdminServiceImpl;
+import com.github.justfunxin.spring.boot.starter.xxl.job.model.XxlJobInfo;
+import com.github.justfunxin.spring.boot.starter.xxl.job.properties.XxlJobProperties;
+import com.github.justfunxin.spring.boot.starter.xxl.job.service.XxlJobAdminService;
+import com.github.justfunxin.spring.boot.starter.xxl.job.service.impl.XxlJobAdminServiceImpl;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;

@@ -1,4 +1,4 @@
-package com.github.kangarooxin.spring.boot.starter.xxl.job.utils;
+package com.github.justfunxin.spring.boot.starter.xxl.job.utils;
 
 import lombok.extern.slf4j.Slf4j;
 

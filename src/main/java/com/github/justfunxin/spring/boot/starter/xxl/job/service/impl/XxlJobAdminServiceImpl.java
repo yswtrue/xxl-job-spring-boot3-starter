@@ -1,10 +1,10 @@
-package com.github.kangarooxin.spring.boot.starter.xxl.job.service.impl;
+package com.github.justfunxin.spring.boot.starter.xxl.job.service.impl;
 
-import com.github.kangarooxin.spring.boot.starter.xxl.job.exception.XxlJobServiceException;
-import com.github.kangarooxin.spring.boot.starter.xxl.job.model.XxlJobGroup;
-import com.github.kangarooxin.spring.boot.starter.xxl.job.model.XxlJobInfo;
-import com.github.kangarooxin.spring.boot.starter.xxl.job.properties.XxlJobProperties;
-import com.github.kangarooxin.spring.boot.starter.xxl.job.service.XxlJobAdminService;
+import com.github.justfunxin.spring.boot.starter.xxl.job.exception.XxlJobServiceException;
+import com.github.justfunxin.spring.boot.starter.xxl.job.model.XxlJobGroup;
+import com.github.justfunxin.spring.boot.starter.xxl.job.model.XxlJobInfo;
+import com.github.justfunxin.spring.boot.starter.xxl.job.properties.XxlJobProperties;
+import com.github.justfunxin.spring.boot.starter.xxl.job.service.XxlJobAdminService;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.reflect.TypeToken;

@@ -1,4 +1,4 @@
-package com.github.kangarooxin.spring.boot.starter.xxl.job.model;
+package com.github.justfunxin.spring.boot.starter.xxl.job.model;
 
 import lombok.Data;
 
@@ -19,8 +19,9 @@ public class XxlJobGroup {
 
     // registry list
     private List<String> registryList;  // 执行器地址列表(系统注册)
+
     public List<String> getRegistryList() {
-        if (addressList!=null && addressList.trim().length()>0) {
+        if (addressList != null && addressList.trim().length() > 0) {
             registryList = new ArrayList<String>(Arrays.asList(addressList.split(",")));
         }
         return registryList;

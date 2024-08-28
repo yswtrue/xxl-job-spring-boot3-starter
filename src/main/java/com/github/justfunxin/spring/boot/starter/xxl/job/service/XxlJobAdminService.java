@@ -1,8 +1,8 @@
-package com.github.kangarooxin.spring.boot.starter.xxl.job.service;
+package com.github.justfunxin.spring.boot.starter.xxl.job.service;
 
 
-import com.github.kangarooxin.spring.boot.starter.xxl.job.model.XxlJobGroup;
-import com.github.kangarooxin.spring.boot.starter.xxl.job.model.XxlJobInfo;
+import com.github.justfunxin.spring.boot.starter.xxl.job.model.XxlJobGroup;
+import com.github.justfunxin.spring.boot.starter.xxl.job.model.XxlJobInfo;
 
 /**
  * @author pangxin01822

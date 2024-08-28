@@ -1,12 +1,12 @@
 # xxl-job-spring-boot3-starter
 
-[![Maven Central](https://maven-badges.herokuapp.com/maven-central/io.github.kangarooxin/xxl-job-spring-boot3-starter/badge.svg)](https://maven-badges.herokuapp.com/maven-central/io.github.kangarooxin/xxl-job-spring-boot3-starter)
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/io.github.justfunxin/xxl-job-spring-boot3-starter/badge.svg)](https://maven-badges.herokuapp.com/maven-central/io.github.justfunxin/xxl-job-spring-boot3-starter)
 
 ## Usage:
 1. import dependency in pom.xml
     ```
     <dependency>
-        <groupId>io.github.kangarooxin</groupId>
+        <groupId>io.github.justfunxin</groupId>
         <artifactId>xxl-job-spring-boot3-starter</artifactId>
         <version>1.0.0</version>
     </dependency>

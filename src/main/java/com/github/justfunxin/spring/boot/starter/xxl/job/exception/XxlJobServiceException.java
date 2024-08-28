@@ -1,4 +1,4 @@
-package com.github.kangarooxin.spring.boot.starter.xxl.job.exception;
+package com.github.justfunxin.spring.boot.starter.xxl.job.exception;
 
 public class XxlJobServiceException extends RuntimeException {
 
