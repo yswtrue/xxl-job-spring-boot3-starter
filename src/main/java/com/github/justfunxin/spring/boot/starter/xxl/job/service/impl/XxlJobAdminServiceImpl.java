@@ -160,6 +160,22 @@ public class XxlJobAdminServiceImpl implements XxlJobAdminService {
     }
 
     @Override
+    public List<XxlJobInfo> getJobs(String handler) {
+        Map<String, String> params = new HashMap<>();
+        params.put("jobGroup", "-1");
+        params.put("triggerStatus", "-1");
+        params.put("start", "0");
+        params.put("length", "10000");
+        JobInfoPageList list = postFormWithoutReturnT("jobinfo/pageList", params, JobInfoPageList.class);
+        if (CollectionUtils.isEmpty(list.getData())) {
+            return null;
+        }
+        return list.getData().stream()
+                .filter(x -> x.getExecutorHandler().equals(handler))
+                .toList();
+    }
+
+    @Override
     public void createJobGroup(String appName, String title) {
         Map<String, String> params = new HashMap<>();
         params.put("appname", appName);

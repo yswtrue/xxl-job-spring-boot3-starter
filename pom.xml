@@ -4,13 +4,13 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>io.github.justfunxin</groupId>
+    <groupId>io.github.yswtrue</groupId>
     <artifactId>xxl-job-spring-boot3-starter</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.2</version>
     <packaging>jar</packaging>
     <name>xxl-job-spring-boot3-starter</name>
     <description>springboot3 starter for xxl-job</description>
-    <url>https://github.com/justfunxin/xxl-job-spring-boot3-starter</url>
+    <url>https://github.com/yswtrue/xxl-job-spring-boot3-starter</url>
 
     <properties>
         <java.version>17</java.version>
@@ -165,19 +165,19 @@
     </licenses>
     <developers>
         <developer>
-            <email>pangxin001@163.com</email>
-            <name>xin.pang</name>
-            <url>https://github.com/justfunxin</url>
-            <id>justfunxin</id>
+            <email>a365039311@gmail.com</email>
+            <name>Roy</name>
+            <url>https://github.com/yswtrue</url>
+            <id>yswtrue</id>
         </developer>
     </developers>
     <issueManagement>
         <system>Github Issue</system>
-        <url>https://github.com/justfunxin/xxl-job-spring-boot3-starter/issues</url>
+        <url>https://github.com/yswtrue/xxl-job-spring-boot3-starter/issues</url>
     </issueManagement>
     <scm>
-        <connection>scm:git@github.com:justfunxin/xxl-job-spring-boot3-starter.git</connection>
-        <developerConnection>scm:git@github.com:justfunxin/xxl-job-spring-boot3-starter.git</developerConnection>
-        <url>https://github.com/justfunxin/xxl-job-spring-boot3-starter</url>
+        <connection>scm:git@github.com:yswtrue/xxl-job-spring-boot3-starter.git</connection>
+        <developerConnection>scm:git@github.com:yswtrue/xxl-job-spring-boot3-starter.git</developerConnection>
+        <url>https://github.com/yswtrue/xxl-job-spring-boot3-starter</url>
     </scm>
 </project>

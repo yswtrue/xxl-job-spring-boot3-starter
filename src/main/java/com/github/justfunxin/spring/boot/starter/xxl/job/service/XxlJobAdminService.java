@@ -4,6 +4,8 @@ package com.github.justfunxin.spring.boot.starter.xxl.job.service;
 import com.github.justfunxin.spring.boot.starter.xxl.job.model.XxlJobGroup;
 import com.github.justfunxin.spring.boot.starter.xxl.job.model.XxlJobInfo;
 
+import java.util.List;
+
 /**
  * @author pangxin001@163.com
  */
@@ -91,6 +93,12 @@ public interface XxlJobAdminService {
      * @param jobId 任务ID
      */
     XxlJobInfo getJob(int jobId);
+    /**
+     * 获取任务信息
+     *
+     * @param handler 任务handler
+     */
+    List<XxlJobInfo> getJobs(String handler);
 
     /**
      * 创建执行器
